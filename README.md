@@ -1,6 +1,13 @@
 # G25_Pedals_and_Shifter
 Arduino-based USB interface for Logitech G25 Pedals and Shifter:
 
+## What's difference between this code and Cheroukee's work?
+* This code supports only Arduino Pro Micro 5V/16MHz ATmega32U4!!!
+* Added DPad functionality
+* Added G25 Pedals Axis values like on G25 Wheel
+* Changed Axis to Rx,Ry,Rz
+* Cleared code from Teensy, and unused buttons/axis
+
 ## Required Parts/Materials
 
 * [SparkFun Pro Micro](https://www.sparkfun.com/products/12640) or clone (must be a 5V/16MHz ATmega32U4 with onboard USB)
