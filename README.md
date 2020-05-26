@@ -1,4 +1,4 @@
-# G25_Pedals_and_Shifter
+# G25 Pedals and Shifter
 Arduino-based USB interface for Logitech G25 Pedals and Shifter:
 
 ## What's difference between this code and Cheroukee's work?
