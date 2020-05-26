@@ -11,16 +11,27 @@ Arduino-based USB interface for Logitech G25 Pedals and Shifter:
 ## Assembly
 
 // PEDAL PINS (back side of connector)(Left to Right)
+
 //| DB9 | Description | Pro Micro   |
+
 //|   1 | GND         | GND         |
+
 //|   2 | Throttle    | pin 4       |
+
 //|   3 | Brake       | pin 6       |
+
 //|   4 | Clutch      | pin 8       |
+
 //|   5 |             |             |
+
 //|   6 | +5V         | VCC         |
+
 //|   7 |             |             |
+
 //|   8 |             |             |
+
 //|   9 | +5V         | VCC         |
+
 // SHIFTER PINS (back side of connector)(Left to Right)
 //| DB9 | Description             | Pro Micro   |
 //|   1 |                         |             |
