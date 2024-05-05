@@ -1,7 +1,13 @@
 # G25 Pedals and Shifter
-Arduino-based USB interface for Logitech G25 Pedals and Shifter:
+Arduino-based USB interface for Logitech G25 Pedals and Shifter - based on [Ziome3eg](https://github.com/Ziome3eg/G25_Pedals_and_Shifter) work.
 
-## What's difference between this code and Cheroukee's work?
+## What's difference between this code and Ziome3eg's work?
+
+Pinout has been fixed so it works on G25. Probably old pinout was made for a G27 shifter. 
+
+Everything else is the same.
+
+## What's difference between Ziome3eg and Cheroukee's work?
 * This code supports only Arduino Pro Micro 5V/16MHz ATmega32U4!!!
 * Added DPad functionality
 * Added G25 Pedals Axis values like on G25 Wheel
