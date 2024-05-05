@@ -17,7 +17,7 @@ Arduino-based USB interface for Logitech G25 Pedals and Shifter:
 
 ## Assembly
 
-![pinout](https://raw.githubusercontent.com/Ziome3eg/G25_Pedals_and_Shifter/master/pinout.png)
+![pinout](https://raw.githubusercontent.com/EngAAlex/G25_Pedals_and_Shifter/master/pinout.png)
 
 ## Firmware
 
