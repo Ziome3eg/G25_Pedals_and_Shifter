@@ -21,15 +21,16 @@
 //|   9 | +5V         | VCC         |
 // SHIFTER PINS (back side of connector)(Left to Right)
 //| DB9 | Description             | Pro Micro   |
-//|   1 |                         |             |
-//|   2 | Shifter X axis          | pin A0      |
+//|   1 | +5v                     | VCC         |
+//|   2 | Button Data             | pin 14      |
 //|   3 | Button !CS & !PL (Mode) | pin 16      |
-//|   4 | Button Data             | pin 14      |
-//|   5 | +5V                     | VCC         |
-//|   6 |                         |             |
-//|   7 | Shifter Y axis          | pin A1      |
-//|   8 | Button Clock            | pin 10      |
-//|   9 | GND                     | GND         |
+//|   4 | Shifter X axis          | pin A0      |
+//|   5 | GND                     | GND         |
+//|   6 | LED status              | GND         |
+//|   7 | Button Clock            | pin 10      |
+//|   8 | Shifter Y axis          | pin A1      |
+//|   9 |                         |             |
+//| Shifter Pin 1 and 9 are short circuited in G25 
 #include <Joystick.h>
 Joystick_ joystick(JOYSTICK_DEFAULT_REPORT_ID,JOYSTICK_TYPE_JOYSTICK,
   18, 1,                  
